@@ -1,8 +1,8 @@
-"""Lesson 1 exercise: one trip through GPT-2.
+"""One forward pass through GPT-2: tokenize, score, print the top-5 next tokens.
 
 Run inside your environment:
     source ~/inference/bin/activate
-    python lesson1.py
+    python next_token.py
 The first run downloads GPT-2 small (about 500 MB).
 """
 import torch
